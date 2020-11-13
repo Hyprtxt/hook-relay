@@ -10,4 +10,4 @@ https://www.gatsbyjs.com/docs/refreshing-content/
 
 `ssh -R :44244:localhost:44444 ec`
 
-`ssh -R :public_port:localhost:this_app_port'
+`ssh -R :public_port:localhost:this_app_port`
