@@ -22,7 +22,9 @@ const init = async () => {
     method: "POST",
     path: "/relay",
     handler: async (request, h) => {
-      console.log("relay triggered");
+      var d = new Date();
+      var n = d.toLocaleTimeString();
+      console.log(`relay triggered - ${n}`);
       const response = await post("__refresh");
       return response;
     },
